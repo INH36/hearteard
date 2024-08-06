@@ -13,6 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+.icon-shuaxin:before {
+  content: "\e62f";
+}
+
 .icon-lishi:before {
   content: "\e61a";
 }

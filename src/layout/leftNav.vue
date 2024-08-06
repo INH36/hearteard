@@ -28,10 +28,10 @@
     </div>
     <hr class="w-[98%] h-[1px] bg-[#b3b3b3] mx-auto my-5" />
     <div class="w-full flex flex-col gap-4 px-4 mb-4">
-      <span class="text-xs text-slate-600">猜你想认识的人</span>
-      <LeftFollowItem />
-      <LeftFollowItem />
-      <LeftFollowItem />
+      <span class="text-xs text-slate-600 flex items-center justify-between">
+        猜你想认识的人
+      </span>
+      <LeftFollowItem v-for="item in recommendPeopleData.data" :key="item.userid" :userData="item"/>
     </div>
   </div>
 </template>
@@ -40,11 +40,27 @@
 import { onMounted, ref, watchEffect } from "vue";
 import LeftFollowItem from "@/components/leftFollowItem.vue";
 import { getAllCategory } from "@/api/navApi";
+import { useUserStore } from "@/stores/module/userStore";
+import { recommendUserList } from "@/api/userApi";
+
+const userStore = useUserStore();
 const navList: any = ref([]);
 const isShow = ref(true);
 
 // 获取导航栏数据
 const defaultCategoryData = ref([]);
+
+// 推荐人物数据
+const recommendPeopleData:any = ref([]);
+
+// 获取推荐人物数据
+watchEffect(async()=>{
+   if(userStore.getIsLogin()){
+    recommendPeopleData.value = await recommendUserList;
+   }
+   console.log(recommendPeopleData.value);
+   
+})
 
 // 数据加载
 onMounted(async () => {

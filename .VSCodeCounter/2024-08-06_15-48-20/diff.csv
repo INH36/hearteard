@@ -1,0 +1,17 @@
+"filename", "language", "vue", "CSS", "TypeScript", "HTML", "comment", "blank", "total"
+"k:\Vue_Demo\WeTeam\src\App.vue", "vue", 9, 0, 0, 0, 0, 1, 10
+"k:\Vue_Demo\WeTeam\src\api\navApi.ts", "TypeScript", 0, 0, 11, 0, 2, 2, 15
+"k:\Vue_Demo\WeTeam\src\api\userApi.ts", "TypeScript", 0, 0, 4, 0, 2, 0, 6
+"k:\Vue_Demo\WeTeam\src\components\Login.vue", "vue", 230, 0, 0, 0, 2, 12, 244
+"k:\Vue_Demo\WeTeam\src\components\leftFollowItem.vue", "vue", 96, 0, 0, 0, 0, 4, 100
+"k:\Vue_Demo\WeTeam\src\components\leftNav.vue", "vue", -67, 0, 0, 0, 0, -8, -75
+"k:\Vue_Demo\WeTeam\src\components\topNav.vue", "vue", -157, 0, 0, 0, -3, -7, -167
+"k:\Vue_Demo\WeTeam\src\demo\demo.html", "HTML", 0, 0, 0, 40, 0, 4, 44
+"k:\Vue_Demo\WeTeam\src\layout\leftNav.vue", "vue", 67, 0, 0, 0, 0, 6, 73
+"k:\Vue_Demo\WeTeam\src\layout\main.vue", "vue", 6, 0, 0, 0, 0, 3, 9
+"k:\Vue_Demo\WeTeam\src\layout\topNav.vue", "vue", 167, 0, 0, 0, 3, 5, 175
+"k:\Vue_Demo\WeTeam\src\stores\module\userStore.ts", "TypeScript", 0, 0, 4, 0, 1, 0, 5
+"k:\Vue_Demo\WeTeam\src\styles\base.css", "CSS", 0, 11, 0, 0, 0, 2, 13
+"k:\Vue_Demo\WeTeam\src\styles\iconFont\iconfont.css", "CSS", 0, 9, 0, 0, 0, 3, 12
+"k:\Vue_Demo\WeTeam\src\views\HomeView.vue", "vue", 16, 0, 0, 0, 0, 1, 17
+"Total", "-", 367, 20, 19, 40, 7, 28, 481
