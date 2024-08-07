@@ -1,6 +1,6 @@
 <template>
-    <div class="">
-        
+    <div class="flex-1">
+        <RouterView/>
     </div>
 </template>
 

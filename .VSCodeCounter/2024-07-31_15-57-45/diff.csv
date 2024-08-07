@@ -1,8 +1,0 @@
-"filename", "language", "vue", "TypeScript", "comment", "blank", "total"
-"k:\Vue_Demo\WeTeam\src\App.vue", "vue", 11, 0, 0, 2, 13
-"k:\Vue_Demo\WeTeam\src\components\leftNav.vue", "vue", 2, 0, 0, 2, 4
-"k:\Vue_Demo\WeTeam\src\components\topNav.vue", "vue", 10, 0, 0, 4, 14
-"k:\Vue_Demo\WeTeam\src\utils\encrypt.ts", "TypeScript", 0, 32, 13, 7, 52
-"k:\Vue_Demo\WeTeam\src\utils\storage.ts", "TypeScript", 0, 4, 6, 0, 10
-"k:\Vue_Demo\WeTeam\src\utils\type\storageType.ts", "TypeScript", 0, 0, 0, -1, -1
-"Total", "-", 23, 36, 19, 14, 92

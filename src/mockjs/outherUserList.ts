@@ -18,7 +18,7 @@ export default [
                     phone: '@integer(13000000000, 19999999999)',
                     email: '@email',
                     status: status,
-                    lastLoginTime: lastLoginTime 
+                    lastLoginTime: lastLoginTime
                 })
             }
             return ({

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex items-center justify-between h-12 w-full bg-blue-500 lg:px-8 px-4 sticky top-0"
+    class="flex items-center justify-between h-12 w-full bg-blue-500 lg:px-8 px-4 sticky top-0 z-10"
   >
     <!-- left -->
     <div class="flex items-center w-[25%]">
@@ -160,7 +160,7 @@
 <script lang="ts" setup>
 import { ref, watchEffect } from "vue";
 import { useUserStore } from "@/stores/module/userStore";
-import HomeNav from "@/components/homeNav.vue";
+import HomeNav from "@/components/HomeNav.vue";
 const userStore = useUserStore();
 const userData = ref(userStore.getUserData());
 
