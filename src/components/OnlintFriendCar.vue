@@ -1,5 +1,6 @@
 <template>
   <div
+    @click="routerToCilik"
     class="p-2 flex items-center gap-4 rounded-md cursor-pointer relative transition-colors duration-200 hover:bg-slate-300"
   >
     <img
@@ -14,4 +15,12 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+
+const routerToCilik = () =>{
+  router.push('/frindhome')
+}
+</script>

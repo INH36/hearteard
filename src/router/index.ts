@@ -1,7 +1,7 @@
 import HomeView from '@/views/HomeView.vue'
+import BolgView from '@/views/BolgView.vue'
 import UserHome from '@/views/UserHome.vue'
 import { createRouter, createWebHistory } from 'vue-router'
-import Test from '@/components/test.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -13,13 +13,13 @@ const router = createRouter({
       children:[
         {
           path:'/',
-          name: 'userhome',
-          component: UserHome
+          name: 'bolg',
+          component: BolgView
         },
         {
-          path:'/test',
-          name: 'test',
-          component: Test
+          path:'/frindhome',
+          name: 'user',
+          component: UserHome
         }
       ]
     }

@@ -95,7 +95,7 @@ const handleHideMove = () => {
 };
 // 导航切换
 const handleNavChange = (item: any) => {
-  router.push('/test')
+  router.push('/')
   navList.value.forEach((item: any) => {
     item.isSelected = false;
   });
